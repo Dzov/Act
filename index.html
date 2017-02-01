@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <title>ACT!</title>
     <link type="text/css" href="css/normalize.css" rel="stylesheet">
-    <link type = "text/css" href = "font-awesome-4.7.0/css/font-awesome.css" rel = "stylesheet">
     <link type="text/css" href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -13,13 +12,13 @@
   <body>
     <header>
       <section>
-        <img src="links/logo.svg">
+        <img src="links/logo.svg" height='75' width='75' alt='Brand Logo'>
         <h1 id="brand">ACT!</h1>
         <h2 id="slogan">Proposez. Votez. Agissez</h2>
       </section>
 
       <section>
-        <i class="fa fa-user"></i>
+        <img src='links/profileIcon.png' height='20' width='20' alt='Profile Icon'>
         <button id="loginBtn">Se connecter</button>
         <label for="loginBtn">Pas de compte ?</label>
       </section>
@@ -27,11 +26,10 @@
 
     <nav>
       <ul>
-        <li><a href="">L'équipe</a></li>
-        <li><a href="">Les Projets</a></li>
-        <li><a href="">Les Partenaires</a></li>
+        <li><a href="#">L'équipe</a></li>
+        <li><a href="#">Les Projets</a></li>
+        <li><a href="#">Les Partenaires</a></li>
       </ul>
-
     </nav>
 
     <main>
@@ -70,28 +68,40 @@
 
       <section id="lasts-projects">
         <!-- here is "Derniers projets" -->
-        <article id="lasts-projects-container">
+        <h3>Derniers projets proposés</h3>
+        <div id="lasts-projects-container" class="flex">
             <figure>
-              <!-- here is the description of projetc -->
+              <h4>Titre</h4>
+              <img src="links/gardening.jpg">
+              <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</figcaption>
             </figure>
             <figure>
-              <!-- here is the description of projetc -->
+              <h4>Titre</h4>
+              <img src="links/gardening.jpg">
+              <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</figcaption>
             </figure>
             <figure>
-              <!-- here is the description of projetc -->
+              <h4>Titre</h4>
+              <img src="links/gardening.jpg">
+              <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</figcaption>
             </figure>
             <figure>
-              <!-- here is the description of projetc -->
+              <h4>Titre</h4>
+              <img src="links/gardening.jpg">
+              <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</figcaption>
             </figure>
             <figure>
-              <!-- here is the description of projetc -->
+              <h4>Titre</h4>
+              <img src="links/gardening.jpg">
+              <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</figcaption>
             </figure>
-        </article>
+        </div>
+        <button id="VoirActs-btn">Voir tous les ACT!</button>
       </section>
 
 
 
-      <section id="lasts-projects">
+      <section id="submitSection">
         <!-- here is carte de la france -->
         <!-- here is the submission form -->
       </section>
@@ -100,6 +110,13 @@
 
 
     <footer>
+      <p>&copy; </p>
+      <aside>
+        <ul>
+          <li><a href="http://facebook.com" target='_blank'><img src="links/fbIcon.png" width="15" height="15"></a></li>
+          <li><a href="http://facebook.com" target='_blank'><img src="links/twitterIcon.png" width="15" height="15"></a></li>
+          <li><a href="http://facebook.com" target='_blank'><img src="links/githubIcon.png" width="15" height="15"></a></li>
+        </ul>
     </footer>
   </body>
 </html>
