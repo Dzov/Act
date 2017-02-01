@@ -17,6 +17,26 @@
 
 body {
   font-family: 'Abel', sans-serif;
+  color: #454857;
+}
+
+button  {
+  background-color: #72bb53;
+  border: none;
+  box-shadow: 1px 1px 2px black; 
+  border-radius: 10px;
+  color: white;
+  font-family: 'Abel', sans-serif;
+  padding: 10px 25px;
+}
+
+a {
+  text-decoration: none; 
+  color: inherit;
+}
+
+main {
+  margin-top: 120px; 
 }
 
 .flex {
@@ -27,13 +47,8 @@ body {
   flex-direction: column;
 }
 
-button  {
-  background-color: #72bb53;
-  border: none;
-  border-bottom: 1px solid black;
-  border-radius: 15px;
-  color: white;
-  font-family: 'Abel', sans-serif;
+.brand {
+  font-family: 'Kumar', cursive;
 }
 
 /**************** **************** **************** **************** **************** **************** **************** ****************/
@@ -41,13 +56,57 @@ button  {
 /**************** **************** **************** **************** **************** **************** **************** ****************/
 header {
   justify-content: space-between;
-  height: 100px;
-  padding: 20px;
+  align-items: center;
+  background-color: white; 
+  width: 100%;
+  height: 120px; 
+  padding: 0 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 3px 5px rgba(100, 100, 100, .49); 
+}
+header h1, 
+header h2 {
+  margin: 0;
 }
 
+header h2 {
+  font-size: 1em;
+  margin-top: -10px;
+}
 
-.brand {
-  font-family: 'Kumar', cursive;
+#logo {
+  margin-right: 5px;
+}
+
+#profileIcon {
+  margin: 10px 15px 0 0 ;
+}
+
+#loginLabel {
+  align-self: center;
+  margin-top: 5px;
+}
+
+/**************** **************** **************** ------NAV------ **************** **************** ****************/
+
+nav {
+  justify-content: center; 
+  align-self: center;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.navList li {
+  margin-bottom: 20px;
+  padding: 0 10px;
+  border-right: 2px solid #72bb53;
+}
+
+.navList li:last-child {
+  border: none;
 }
 
 
@@ -71,13 +130,8 @@ header {
   width: 100%;
   height: auto;
   margin: 0;
-  border: 1px solid red;
   z-index: -100;
   background-size: cover;
-}
-
-.test {
-  width: 100%;
 }
 
 #jumbotron h1 {
@@ -89,8 +143,6 @@ header {
   position: absolute;
   bottom: 15%;
   left: 42%;
-  width : 200px;
-  height : 50px;
 }
 
 
@@ -139,7 +191,7 @@ header {
 
 }
 
-figure img {
+#lasts-projects img {
   width: 100%;
   height: auto;
 }

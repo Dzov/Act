@@ -12,27 +12,41 @@
   <body>
     <header class="flex">
       <section class="flex">
-        <img src="links/logo.svg" height='75' width='75' alt='Brand Logo'>
+        <img src="links/logo.svg" height='75' width='75' alt='Brand Logo' id="logo">
         <div class="flex flexColumn">
-          <h1 id="brand">ACT!</h1>
+          <h1 class="brand">ACT!</h1>
           <h2 id="slogan">Proposez. Votez. Agissez</h2>
         </div>
       </section>
 
-      <section>
-        <img src='links/profileIcon.png' height='20' width='20' alt='Profile Icon'>
-        <button id="loginBtn">Se connecter</button>
-        <label for="loginBtn">Pas de compte ?</label>
+      <nav class='flex'>
+        <ul class="navList flex">
+          <li>
+            <a href="#">L'équipe</a>
+          </li>
+          <li>
+            <a href="#">Les Projets</a>
+          </li>
+          <li>
+            <a href="#">Les Partenaires</a>
+          </li>
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="flex">
+        <img src='links/profileIcon.png' height='25' width='25' alt='Profile Icon' id="profileIcon">
+        <div class="flex flexColumn">
+          <button id="loginBtn">Se connecter</button>
+          <label for="loginBtn" id="loginLabel">Pas de compte ?</label>
+        </div>
       </section>
+
     </header>
 
-    <nav>
-      <ul>
-        <li><a href="#">L'équipe</a></li>
-        <li><a href="#">Les Projets</a></li>
-        <li><a href="#">Les Partenaires</a></li>
-      </ul>
-    </nav>
+
 
     <main>
       <section id="jumbotron">
