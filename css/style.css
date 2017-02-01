@@ -218,6 +218,27 @@ nav {
 
 
 
+#submit-section{
+  margin-top: 30px;
+   padding: 4%;
+   justify-content: space-between;
+   border-top: 2px solid black;
+   width: 100%;
+}
+#break{
+  width: 2px;
+  height: 550px;
+  background: black;
+}
+
+
+
+iframe{
+
+width: 450px;
+height: 450px;
+}
+
 
 
 
