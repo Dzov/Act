@@ -6,14 +6,13 @@
     <title>ACT!</title>
     <link type="text/css" href="css/normalize.css" rel="stylesheet">
     <link type="text/css" href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
     <header class="flex">
       <section class="flex">
         <img src="links/logo.svg" height='75' width='75' alt='Brand Logo' id="logo">
-        <div class="flex flexColumn">
+        <div id="brand-container" class="flex flexColumn">
           <h1 class="brand">ACT!</h1>
           <h2 id="slogan">Proposez. Votez. Agissez</h2>
         </div>
@@ -37,7 +36,6 @@
       </nav>
 
       <section class="flex">
-        <img src='links/profileIcon.png' height='25' width='25' alt='Profile Icon' id="profileIcon">
         <div class="flex flexColumn">
           <button id="loginBtn">Se connecter</button>
           <label for="loginBtn" id="loginLabel">Pas de compte ?</label>
@@ -62,21 +60,21 @@
 
 
       <section id="concept">
-        <h1>Concept</h1>
+        <h3>Concept</h3>
         <div id="concept-container" class="flex">
           <figure class="concept">
             <img src="" alt="">
-            <h3>Proposez</h3>
+            <h4>Proposez</h4>
             <figcaption>orem Ipsum is simply dummy text of the printing and typesetting industry.</figcaption>
           </figure>
           <figure class="concept">
             <img src="" alt="">
-            <h3>Votez</h3>
+            <h4>Votez</h4>
             <figcaption>orem Ipsum is simply dummy text of the printing and typesetting industry.</figcaption>
           </figure>
           <figure class="concept">
             <img src="" alt="">
-            <h3>Agissez</h3>
+            <h4>Agissez</h4>
             <figcaption>orem Ipsum is simply dummy text of the printing and typesetting industry.</figcaption>
           </figure>
         </div>
@@ -104,37 +102,36 @@
 
 
 
-      <section id="lasts-projects">
-        <!-- here is "Derniers projets" -->
-        <h3>Derniers projets proposés</h3>
-        <div id="lasts-projects-container" class="flex">
-            <figure>
-              <h4>Title 1</h4>
-              <img src="links/gardening.jpg">
-              <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</figcaption>
-            </figure>
-            <figure>
-              <h4>Titre</h4>
-              <img src="links/gardening.jpg">
-              <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</figcaption>
-            </figure>
-            <figure>
-              <h4>Titre</h4>
-              <img src="links/gardening.jpg">
-              <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</figcaption>
-            </figure>
-            <figure>
-              <h4>Titre</h4>
-              <img src="links/gardening.jpg">
-              <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</figcaption>
-            </figure>
-            <figure>
-              <h4>Titre</h4>
-              <img src="links/gardening.jpg">
-              <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</figcaption>
-            </figure>
+      <section id="last-projects" class="flex flexColumn">
+        <h3 id="last-projects-header">Derniers projets proposés</h3>
+        <div id="last-projects-container" class="flex">
+          <figure class="last-projects-card">
+            <h4>Title 1</h4>
+            <img src="links/gardening.jpg">
+            <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</figcaption>
+          </figure>
+          <figure class="last-projects-card">
+            <h4>Titre</h4>
+            <img src="links/gardening.jpg">
+            <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</figcaption>
+          </figure>
+          <figure class="last-projects-card">
+            <h4>Titre</h4>
+            <img src="links/gardening.jpg">
+            <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</figcaption>
+          </figure>
+          <figure class="last-projects-card">
+            <h4>Titre</h4>
+            <img src="links/gardening.jpg">
+            <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</figcaption>
+          </figure>
+          <figure class="last-projects-card">
+            <h4>Titre</h4>
+            <img src="links/gardening.jpg">
+            <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</figcaption>
+          </figure>
         </div>
-        <button id="VoirActs-btn">Voir tous les ACT!</button>
+        <button id="last-projects-btn">Voir tous les ACT!</button>
       </section>
 
 
@@ -163,13 +160,13 @@
 
 
 
-    <footer>
+    <footer class="flex">
       <p>&copy; </p>
       <aside>
-        <ul>
-          <li><a href="http://facebook.com" target='_blank'><img src="links/fbIcon.png" width="15" height="15"></a></li>
-          <li><a href="http://facebook.com" target='_blank'><img src="links/twitterIcon.png" width="15" height="15"></a></li>
-          <li><a href="http://facebook.com" target='_blank'><img src="links/githubIcon.png" width="15" height="15"></a></li>
+        <ul  id="contactIcons-list" class="flex">
+          <li><a href="http://facebook.com" target='_blank'><img src="links/fbIcon.png" width="30" height="30"></a></li>
+          <li><a href="http://facebook.com" target='_blank'><img src="links/twitterIcon.png" width="30" height="30"></a></li>
+          <li><a href="http://facebook.com" target='_blank'><img src="links/githubIcon.png" width="30" height="30"></a></li>
         </ul>
     </footer>
   </body>
