@@ -142,6 +142,10 @@ nav {
   padding-top: 5px;
 }
 
+.buttonMenu {
+  display: none;
+}
+
 .navList li {
   margin-bottom: 20px;
   padding: 0 10px;
@@ -444,4 +448,48 @@ footer div {
 #contactIcons-list {
   width: 70px;
   justify-content: space-between;
+}
+
+
+/**************** **************** **************** **************** **************** **************** **************** ****************/
+    /**************** **************** **************** ------MEDIA QUERIES------ **************** **************** ****************/
+/**************** **************** **************** **************** **************** **************** **************** ****************/
+
+
+/**************** **************** **************** ------NAV------ **************** **************** ****************/
+
+@media all and (max-width: 850px)
+
+{
+
+  .loginContainer {
+    display: none;
+  }
+
+  .navList {
+    display: none;
+  }
+
+  .buttonMenu {
+    display: inherit;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+
+  .bar1, .bar2, .bar3 {
+    width: 100%;
+    height: 6px;
+    margin-top: 5px;
+  }
+
+.bar2 {
+  background-color: #364656;
+}
+
+#jumbotron {
+  display: none;
+}
+
 }
