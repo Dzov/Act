@@ -89,6 +89,10 @@ main {
   font-family: 'Raleway-Bold', cursive;
 }
 
+.bold {
+  font-family: 'Raleway-Bold', cursive;
+}
+
 /**************** **************** **************** **************** **************** **************** **************** ****************/
     /**************** **************** **************** ------HEADER------ **************** **************** ****************/
 /**************** **************** **************** **************** **************** **************** **************** ****************/
@@ -277,7 +281,7 @@ nav {
   box-shadow: 2px 2px 15px grey;
   text-align: justify;
   border-radius: 5px;
-  max-width: 240px;
+  max-width: 220px;
   margin: 0 10px;
 }
 
@@ -290,9 +294,18 @@ nav {
 .last-projects-card h1 {
   margin: 0;
   padding: 15px;
+  font-size: 20px;
 }
 
-.last-projects-card p {
+.last-projects-card h2 {
+  margin: 0;
+}
+
+.progressBar p {
+  padding: 15px;
+}
+
+.cardDescription {
   padding: 15px;
 }
 
