@@ -360,7 +360,31 @@ nav {
   height: 30px;
 }
 
-#firstBar p {
+#secondBar {
+  border-radius: 10px;
+  width: 60px;
+  height: 30px;
+}
+
+#thirdBar {
+  border-radius: 10px;
+  width: 130px;
+  height: 30px;
+}
+
+#fourthBar {
+  border-radius: 10px;
+  width: 140px;
+  height: 30px;
+}
+
+#fifthBar {
+  border-radius: 10px;
+  width: 120px;
+  height: 30px;
+}
+
+.progressBar p {
   position: relative;
   bottom: 10px;
   left: 50px;
