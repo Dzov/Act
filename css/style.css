@@ -304,7 +304,8 @@ nav {
   text-align: justify;
   border-radius: 5px;
   max-width: 220px;
-  margin: 0 10px;
+  height: 500px;
+  margin: 5px;
 }
 
 .cardHeader {
@@ -396,6 +397,41 @@ nav {
   font-family: "Raleway-Bold";
   color: white;
 }
+
+.cardDescription {
+  line-height: 1.5; 
+}
+
+
+@media all and (max-width: 1240px) {
+  .lastCard {
+    display: none; 
+  }
+}
+
+@media all and (max-width: 539px) {
+  #last-projects-container {
+    justify-content: center; 
+  }
+
+  .last-projects-card {
+    margin: 30px 0;
+  }
+
+
+}
+
+@media all and (max-width: 1000px) {
+  #last-projects-container {
+    max-width: 600px;
+    margin: 50px auto;
+  }
+
+  #last-projects-header {
+    align-self: center; 
+  }
+}
+
 
 /**************** **************** **************** **************** **************** **************** **************** ****************/
     /**************** **************** **************** ------SUBMIT SECTION------ **************** **************** ****************/
