@@ -377,7 +377,7 @@ nav {
 }
 
 .cardDescription {
-  line-height: 1.5; 
+  line-height: 1.5;
 }
 
 
@@ -448,13 +448,13 @@ button:hover {
 }
 
 button:active{
-  box-shadow: none; 
+  box-shadow: none;
   background-color: #478929;
-  outline: none; 
+  outline: none;
 }
 
 button:focus {
-  outline: none; 
+  outline: none;
 }
 
 @keyframes bgColor{
@@ -466,37 +466,48 @@ button:focus {
   }
 }
 
-#jumbotron-first-h2 {
-  animation: jumbo 2s ;
+
+#jumbotron h1 {
+  animation: opac 1s both;
+  animation-delay: 0.3s;
 }
 
+#jumbotron-first-h2 {
+  animation: opac 2s both;
+  animation-delay: 1s;
+}
 
 
 #jumbotron-last-h2 {
-  animation: jumboTextAppear 2s ;
+  animation: opac 2s both;
+  animation-delay: 1.7s;
 }
 
+#buttonJumbo {
+  animation: opac 0.7s both;
+  animation-delay: 2.1s;
+}
 
-
-
-@keyframes jumboTextAppear {
+@keyframes opac {
   from {
-    left: 150%;
+    opacity: 0;
   }
   to {
-    left: 45%;;
+    opacity: 1;
   }
 }
 
-@keyframes jumbo {
+/*
+@keyframes opac1 {
   from {
-    left: -150%;
+    opacity: 0; left : 0%;
   }
-
   to {
-    left: 25%;;
+    opacity: 1; left: 25%;
   }
 }
+*/
+
 
 
 
