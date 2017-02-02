@@ -58,6 +58,24 @@ a:focus {
 main {
   margin-top: 120px;
 }
+.green {
+  background-color: #72bb53;
+}
+.orange {
+  background-color: #ffa834;
+}
+
+.blue {
+  background-color: #357ded;
+}
+
+.yellow {
+  background-color: #f7db2a;
+}
+
+.pink {
+  background-color: #ff5964;
+}
 
 .flex {
   display: flex;
@@ -74,7 +92,7 @@ main {
 /**************** **************** **************** **************** **************** **************** **************** ****************/
     /**************** **************** **************** ------HEADER------ **************** **************** ****************/
 /**************** **************** **************** **************** **************** **************** **************** ****************/
-header {
+#mainHeader {
   justify-content: space-between;
   align-items: center;
   background-color: white;
@@ -109,7 +127,6 @@ header h2 {
   margin-top: 5px;
   font-size: 12px;
 }
-
 
 
 /**************** **************** **************** ------NAV------ **************** **************** ****************/
@@ -264,10 +281,19 @@ nav {
   margin: 0 10px;
 }
 
+.cardHeader {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 50px;
+}
 
-.last-projects-card h4,
-.last-projects-card figcaption {
-  margin: 15px 15px;
+.last-projects-card h1 {
+  margin: 0;
+  padding: 15px;
+}
+
+.last-projects-card p {
+  padding: 15px;
 }
 
 #last-projects img {
@@ -281,7 +307,36 @@ nav {
   align-self: center;
 }
 
+.progressBarBackground {
+  position: relative;
+  top: 2%;
+  width: 200px;
+  height: 30px;
+  margin: auto;
+  background-color: #454857;
+  border-radius: 10px;
+};
 
+.progressBar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#firstBar {
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+}
+
+#firstBar p {
+  position: relative;
+  bottom: 10px;
+  left: 50px;
+  text-align: center;
+  font-family: "Raleway-Bold";
+  color: white;
+}
 
 /**************** **************** **************** **************** **************** **************** **************** ****************/
     /**************** **************** **************** ------SUBMIT SECTION------ **************** **************** ****************/
