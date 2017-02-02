@@ -182,24 +182,26 @@
 
       <section id="submit-section" class="flex">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5662270.188484788!2d-2.2913090648524466!3d46.135204745227625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54a02933785731%3A0x6bfd3f96c747d9f7!2sFrance!5e0!3m2!1sfr!2sfr!4v1485959547627" frameborder="1" style="border:2" allowfullscreen></iframe>
-<div id="break"></div>
-        <form action="page.php">
-          <h2>Soumettre un projet:</h2>
-         <select name="projet">
-          <option value="volvo">Transport</option>
-          <option value="saab">Environnement</option>
-          <option value="fiat">Citoyenneté</option>
-        </select>
-        <br><br>
-         <input type="text" name="email" value="email" size="30"><br><br>
-         <textarea name="message" rows="10" cols="30">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5662270.188484788!2d-2.2913090648524466!3d46.135204745227625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54a02933785731%3A0x6bfd3f96c747d9f7!2sFrance!5e0!3m2!1sfr!2sfr!4v1485959547627" frameborder="1" style="border:2" allowfullscreen></iframe>
+   <div id="break"></div>
+   <form action="test.php" method="post">
+     <h2>Soumettre un projet:</h2>
+    <select name="projet">
+     <option value="volvo">Transport</option>
+     <option value="saab">Environnement</option>
+     <option value="fiat">Citoyenneté</option>
+   </select>
+   <br><br>
+    <input type="email" name="email" value="email" size="30" required><br><br>
+    <textarea name="message" rows="10" cols="30" value="Projet" required>
 
-        </textarea><br><br>
-         <input type="submit" value="Submit">
-       </form>
+   </textarea><br><br>
+    <input type="submit" value="Submit" color=red class="button">
+  </form>
 
-      </section>
+ </section>
+
+
     </main>
 
 
