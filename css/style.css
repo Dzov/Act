@@ -50,7 +50,7 @@ a {
   color: inherit;
 }
 
-button:focus, 
+button:focus,
 a:focus {
   -webkit-text-decoration: underline dotted #72bb53;
 }
@@ -159,13 +159,13 @@ nav {
 
 #jumbotron h1 {
   text-align: center;
-  font-size: 3.5em;
+  font-size: 4.5em;
 
 
 /**/
   position: absolute;
   margin: 0;
-  top: 5%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%);
 }
@@ -179,6 +179,9 @@ nav {
   transform: translate(-50%);
 }
 
+#jumbotron h1, #jumbotron h2 {
+  color: white;
+}
 
 #jumbotron h2 {
   font-size: 1.8em;
@@ -186,12 +189,12 @@ nav {
 }
 
 #jumbotron-first-h2 {
-  top: 14%;
+  top: 34%;
   left: 25%;
 }
 
 #jumbotron-last-h2 {
-  top: 18%;
+  top: 38%;
   left: 45%;
 }
 
@@ -203,17 +206,29 @@ nav {
   /*height: 350px;*/
 
   padding: 40px;
-  background: white; 
+  background: white;
 }
 
-#concept h3 {
+#concept h1 {
   text-align: center;
-  font-size: 25px;
-
-  margin: 0; 
+  margin: 0 0 35px 0;
 }
 
+#concept-container, #stats-container {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
+.concept {
+  text-align: center;
+  width: 200px;
+  margin: 50px 0 50px 0;
+}
+
+.concept img {
+  width: 70px;
+  height: 70px;
+}
 
 
 /**************** **************** **************** **************** **************** **************** **************** ****************/
@@ -231,26 +246,26 @@ nav {
 }
 
 #last-projects-header {
-  font-size: 25px; 
+  font-size: 25px;
   margin: 0 10px;
 }
 
 #last-projects-container {
   justify-content: space-between;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   margin: 50px 0;
 }
 
 .last-projects-card {
-  box-shadow: 2px 2px 15px grey; 
+  box-shadow: 2px 2px 15px grey;
   text-align: justify;
-  border-radius: 5px;  
+  border-radius: 5px;
   max-width: 240px;
   margin: 0 10px;
 }
 
 
-.last-projects-card h4, 
+.last-projects-card h4,
 .last-projects-card figcaption {
   margin: 15px 15px;
 }
@@ -259,7 +274,7 @@ nav {
   width: 100%;
   height: auto;
   border-top: 2px solid rgba(100, 100, 100, .48);
-  border-bottom: 2px solid rgba(100, 100, 100, .48); 
+  border-bottom: 2px solid rgba(100, 100, 100, .48);
 }
 
 #last-projects-btn {
@@ -306,10 +321,10 @@ footer {
   background-color: #364656;
   height: 100px;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
   padding: 0 30px;
   font-size: 12px;
-  line-height: 2; 
+  line-height: 2;
 }
 
 footer div {
@@ -320,9 +335,3 @@ footer div {
   width: 70px;
   justify-content: space-between;
 }
-
-
-
-
-
-
