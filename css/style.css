@@ -45,14 +45,10 @@ button  {
   padding: 10px 25px;
 }
 
+
 a {
   text-decoration: none;
   color: inherit;
-}
-
-button:focus,
-a:focus {
-  -webkit-text-decoration: underline dotted #72bb53;
 }
 
 main {
@@ -181,31 +177,15 @@ nav {
 /**************** **************** **************** **************** **************** **************** **************** ****************/
 #jumbotron {
   position: relative;
-/*  height: 100vh;
-  width: 100%;
-  left:0;
-  top: 0;
-  padding-top: 3px;*/
 }
 
 #bgvid {
   width: 100%;
-/*  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: auto;
-  margin: 0;
-  z-index: -100;
-  background-size: cover;*/
 }
 
 #jumbotron h1 {
   text-align: center;
   font-size: 4.5em;
-
-
-/**/
   position: absolute;
   margin: 0;
   top: 25%;
@@ -215,8 +195,6 @@ nav {
 
 #jumbotron button {
   position: absolute;
-
-  /**/
   bottom: 25%;
   left: 50%;
   transform: translate(-50%);
@@ -246,8 +224,6 @@ nav {
     /**************** **************** **************** ------CONCEPT SECTION------ **************** **************** ****************/
 /**************** **************** **************** **************** **************** **************** **************** ****************/
 #concept {
-  /*height: 350px;*/
-
   padding: 40px;
   background: white;
 }
@@ -417,8 +393,6 @@ nav {
   .last-projects-card {
     margin: 30px 0;
   }
-
-
 }
 
 @media all and (max-width: 1000px) {
@@ -484,6 +458,34 @@ footer div {
 #contactIcons-list {
   width: 70px;
   justify-content: space-between;
+}
+
+
+/**************** **************** **************** **************** **************** **************** **************** ****************/
+    /**************** **************** **************** ------ANIMATION------ **************** **************** ****************/
+/**************** **************** **************** **************** **************** **************** **************** ****************/
+
+button:hover {
+  animation: bgColor .2s ease-in-out both;
+}
+
+button:active{
+  box-shadow: none; 
+  background-color: #478929;
+  outline: none; 
+}
+
+button:focus {
+  outline: none; 
+}
+
+@keyframes bgColor{
+  from {
+    background-color: #72bb53;
+  }
+  to {
+    background-color: #478929;
+  }
 }
 
 
