@@ -35,7 +35,7 @@ body {
   color: #454857;
 }
 
-button  {
+.btn  {
   background-color: #72bb53;
   border: none;
   box-shadow: 1px 1px 2px black;
@@ -223,6 +223,7 @@ nav {
 /**************** **************** **************** **************** **************** **************** **************** ****************/
     /**************** **************** **************** ------CONCEPT SECTION------ **************** **************** ****************/
 /**************** **************** **************** **************** **************** **************** **************** ****************/
+
 #concept {
   padding: 40px;
   background: white;
@@ -265,7 +266,6 @@ nav {
 }
 
 #last-projects-header {
-  font-size: 25px;
   margin: 0 5px;
 }
 
@@ -280,8 +280,8 @@ nav {
   text-align: justify;
   border-radius: 5px;
   max-width: 220px;
-  height: 420px;
-  margin: 5px;
+  height: 450px;
+  margin: 15px 0;
 }
 
 .cardHeader {
@@ -292,14 +292,10 @@ nav {
   text-align: center;
 }
 
-.last-projects-card h1 {
-  margin: 0;
-  padding: 15px;
-  font-size: 20px;
-}
-
 .last-projects-card h2 {
   margin: 0;
+  padding: 15px; 
+  font-size: 20px;
 }
 
 .progressBar p {
@@ -313,8 +309,7 @@ nav {
 #last-projects img {
   width: 100%;
   height: 30%;
-  border-top: 2px solid rgba(100, 100, 100, .48);
-  border-bottom: 2px solid rgba(100, 100, 100, .48);
+  border: 2px solid rgba(100, 100, 100, .48);
 }
 
 #last-projects-btn {
@@ -381,35 +376,53 @@ nav {
 }
 
 
-
-
-
+#testBtn {
+  align-self: flex-end;
+}
 
 /**************** **************** **************** **************** **************** **************** **************** ****************/
     /**************** **************** **************** ------SUBMIT SECTION------ **************** **************** ****************/
 /**************** **************** **************** **************** **************** **************** **************** ****************/
 
-
-
 #submit-section{
-  margin-top: 30px;
-   padding: 4%;
-   justify-content: space-between;
-   border-top: 2px solid black;
-   width: 100%;
+  padding: 4%;
+  justify-content: space-around;
+  border-top: 1px solid grey;
+  background-color: #fcfcfc; 
 }
-#break{
-  width: 2px;
-  height: 550px;
-  background: black;
-}
-
-
 
 iframe{
+  width: 450px;
+  height: 450px;
+  align-self: center; 
+}
 
-width: 450px;
-height: 450px;
+#projectForm {
+  background-color: white;
+}
+
+#projectForm, 
+iframe {
+  box-shadow: 1px 1px 30px rgba(100, 100, 100, .48); 
+}
+
+#submit-section input,
+#submit-section select, 
+#submit-section textarea  {
+  padding: 10px;
+  margin: 10px;
+}
+
+select {
+  height: 43px;
+}
+
+#formHeader {
+  background: #72bb53;
+  margin: 0;
+  padding: 10px;
+  color: white;
+  text-align: center; 
 }
 
 
@@ -434,7 +447,7 @@ footer div {
 }
 
 #contactIcons-list {
-  width: 70px;
+  width: 160px;
   justify-content: space-between;
 }
 
@@ -456,6 +469,7 @@ button:active{
 button:focus {
   outline: none;
 }
+
 
 @keyframes bgColor{
   from {
@@ -536,7 +550,7 @@ button:focus {
     width: 35px;
     height: 35px;
     background-color: white;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
   }
 
   .bar1, .bar2, .bar3 {
@@ -583,3 +597,48 @@ button:focus {
     margin: 30px 0;
   }
 }
+
+
+/**************** **************** **************** ------Submit Section------ **************** **************** ****************/
+
+@media all and (max-width: 980px) {
+  iframe {
+    display: none; 
+  }
+
+  #projectForm {
+    align-self: center; 
+  }
+}
+ 
+
+
+/**************** **************** **************** ------Footer------ **************** **************** ****************/
+
+
+@media all and (max-width: 675px) {
+  footer {
+    font-size: 9px;
+  }
+
+  #contactIcons-list {
+    width: 100px;
+  }
+
+  footer div {
+  margin-right: 40px;
+  }
+
+  footer img {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+
+
+
+
+
+
+
