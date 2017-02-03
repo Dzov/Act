@@ -40,7 +40,7 @@
       <section class="loginContainer flex">
         <div class="flex flexColumn">
           <button id="loginBtn" class="btn">Se connecter</button>
-          <label for="loginBtn" id="loginLabel" class="a">Pas de compte ?</label>
+          <a for="loginBtn" id="loginLabel" class="a" href="#">Pas de compte ?</a>
         </div>
       </section>
 
@@ -61,7 +61,7 @@
         <h1 class="brand">ACT!</h1>
         <h2 id="jumbotron-first-h2">"La plateforme citoyenne</h2>
         <h2 id="jumbotron-last-h2">qui fait vivre votre ville."</h2>
-        <button type="button" name="submit-action" id="buttonJumbo" class="btn">Proposez une action</button>
+        <button type="button" name="submit-action" class="btn">Proposez une action</button>
       </section>
 
 
@@ -125,7 +125,10 @@
                 <p>712/1000</p>
               </div>
             </div>
-            <p class="cardDescription"><span class="bold">Street art</span><br>Rénover de vieux murs en faisant appel à des artistes de rue afin de ranimer le quartier.</p>
+            <div class="cardDescriptionContainer flex flexColumn">
+              <p class="cardDescription"><span class="bold">Street art</span><br>Rénover de vieux murs en faisant appel à des artistes de rue afin de ranimer le quartier.</p>
+              <button type="button" name="button" class="btn">Vote !</button>
+            </div>
           </article>
           <article class="last-projects-card">
             <div class="orange cardHeader">
@@ -137,7 +140,10 @@
                 <p>604/1000</p>
               </div>
             </div>
-            <p class="cardDescription"><span class="bold">Animer le métro</span><br>Utiliser les métros désaffectés pour organiser des évenements ouverts à tous.</p>
+            <div class="cardDescriptionContainer flex flexColumn">
+              <p class="cardDescription"><span class="bold">Animer le métro</span><br>Utiliser les métros désaffectés pour organiser des évenements ouverts à tous.</p>
+              <button type="button" name="button" class="btn">Vote !</button>
+            </div>
           </article>
           <article class="last-projects-card">
             <div class="pink cardHeader">
@@ -149,7 +155,10 @@
                 <p>674/1000</p>
               </div>
             </div>
-            <p class="cardDescription"><span class="bold">Une soupe populaire</span><br>Organiser une soupe populaire de quartier.</p>
+            <div class="cardDescriptionContainer flex flexColumn">
+              <p class="cardDescription"><span class="bold">Une soupe populaire</span><br>Organiser une soupe populaire de quartier.</p>
+              <button type="button" name="button" class="btn">Vote !</button>
+            </div>
           </article>
           <article class="last-projects-card">
             <div class="blue cardHeader">
@@ -161,7 +170,10 @@
                 <p>291/1000</p>
               </div>
             </div>
-            <p class="cardDescription"><span class="bold">Le wifi à plage</span><br>Développer l'accessibilité du wifi urbain et l'étendre sur les différentes plages de la ville.</p>
+            <div class="cardDescriptionContainer flex flexColumn">
+              <p class="cardDescription"><span class="bold">Le wifi à plage</span><br>Développer l'accessibilité du wifi urbain et l'éteindre sur les différentes plages de la ville.</p>
+              <button type="button" name="button" class="btn">Vote !</button>
+            </div>
           </article>
           <article class="last-projects-card lastCard">
             <div class="green cardHeader">
@@ -173,7 +185,10 @@
                 <p>403/1000</p>
               </div>
             </div>
-            <p class="cardDescription"><span class="bold">Un jardin partagé</span><br>Créer des jardins partagés au sein du quartier.</p>
+            <div class="cardDescriptionContainer flex flexColumn">
+              <p class="cardDescription"><span class="bold">Un jardin partagé</span><br>Créer des jardins partagés au sein du quartier.</p>
+              <button type="button" name="button" class="btn">Vote !</button>
+            </div>
           </article>
         </div>
         <button id="last-projects-btn" class="btn">Voir tous les ACT!</button>
@@ -197,7 +212,6 @@
           <input id="formBtn" type="submit" value="Submit" color=red class="btn">
         </form>
       </section>
-
     </main>
 
 
