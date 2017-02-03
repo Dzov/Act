@@ -295,7 +295,7 @@ nav {
 
 .last-projects-card h2 {
   margin: 0;
-  padding: 15px; 
+  padding: 15px;
   font-size: 20px;
 }
 
@@ -394,42 +394,49 @@ nav {
 #submit-section{
   padding: 4%;
   justify-content: space-around;
-  border-top: 1px solid grey;
-  background-color: #fcfcfc; 
+  border-bottom: 1px solid rgba(188,188,186, 0.7);
+  background-color: #364656;
+
 }
 
 iframe{
+  border: none;
   width: 450px;
   height: 450px;
-  align-self: center; 
+  align-self: center;
 }
 
 #projectForm {
   background-color: white;
 }
 
-#projectForm, 
+#projectForm,
 iframe {
-  box-shadow: 1px 1px 30px rgba(100, 100, 100, .48); 
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, .6);
+  border-radius: 5px;
 }
 
 #submit-section input,
-#submit-section select, 
 #submit-section textarea  {
   padding: 10px;
-  margin: 10px;
+  margin: 10px auto;
+  width: 80%;
 }
 
 select {
+  width: 80%;
+  margin: 10px auto;
   height: 43px;
 }
 
 #formHeader {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   background: #72bb53;
   margin: 0;
   padding: 10px;
   color: white;
-  text-align: center; 
+  text-align: center;
 }
 
 
@@ -440,17 +447,13 @@ select {
 /**************** **************** **************** **************** **************** **************** **************** ****************/
 
 footer {
-  background-color: #364656;
+  background-color: white;
   height: 100px;
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
   font-size: 12px;
   line-height: 2;
-}
-
-footer div {
-  color: #748699;
 }
 
 #contactIcons-list {
@@ -486,6 +489,9 @@ footer div {
     background-color: #478929;
   }
 }
+
+
+/**************** **************** **************** ---------JUMBOTRON--- **************** **************** ****************/
 
 
 #jumbotron h1 {
@@ -538,7 +544,6 @@ footer div {
   from {
     opacity: 0;
     transform : translate3d(0,0,0);
-
   }
   to {
     opacity: 1;
@@ -558,9 +563,6 @@ footer div {
     animation-timing-function: ease-in;
   }
 }
-
-
-
 
 
 /**************** **************** **************** **************** **************** **************** **************** ****************/
@@ -640,15 +642,25 @@ footer div {
 
 @media all and (max-width: 980px) {
   iframe {
-    display: none; 
+    display: none;
   }
 
   #projectForm {
-    align-self: center; 
+    align-self: center;
+    width: 40%;
   }
 }
- 
 
+@media all and (max-width: 675px) {
+  iframe {
+    display: none;
+  }
+
+  #projectForm {
+    align-self: center;
+    width: 80%;
+  }
+}
 
 /**************** **************** **************** ------Footer------ **************** **************** ****************/
 
@@ -671,11 +683,3 @@ footer div {
     height: 15px;
   }
 }
-
-
-
-
-
-
-
-
