@@ -528,7 +528,7 @@ footer div {
   }
   to {
     opacity: 1;
-    transform : translate3d(80%,0,0);
+    transform : translate3d(23vw,0,0);
     animation-timing-function: ease-in;
   }
 }
@@ -540,7 +540,7 @@ footer div {
   }
   to {
     opacity: 1;
-    transform : translate3d(-80%,0,0);
+    transform : translate3d(-23vw,0,0);
     animation-timing-function: ease-in;
   }
 }
